@@ -14,5 +14,6 @@ public class FizzBuzzTest {
         assertEquals("1", fizzBuzz.processNumber(1));
         assertEquals("2", fizzBuzz.processNumber(2));
         assertEquals("Fizz", fizzBuzz.processNumber(3));
+        assertEquals("Buzz", fizzBuzz.processNumber(5));
     }
 }
